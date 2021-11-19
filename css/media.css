@@ -1,0 +1,119 @@
+@media (max-width: 1024px) {
+  .header__link {
+    width: 100%;
+    justify-content: center;
+  }
+  .video__video {
+    display: none;
+  }
+}
+@media (max-width: 844px) {
+  .work__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 65px 0 0 0;
+  }
+  .work__content-item {
+    margin: 40px 0 0 0;
+  }
+  .work__wrapper-image {
+    top: 0;
+  }
+  .benefits__content {
+    justify-content: center;
+  }
+  .benefits__image {
+    display: none;
+  }
+  .benefits__text {
+    max-width: 550px;
+  }
+  .benefits__title {
+    text-align: center;
+  }
+  .benefits__subtitle {
+    text-align: center;
+  }
+  .benefits__link {
+    text-align: center;
+  }
+  .specific {
+    background: linear-gradient(0deg, #ffffff 73%, #50c0a4 27%, #5f12d0 27%);
+  }
+  .specific__text {
+    flex-direction: column;
+    align-items: center;
+  }
+  .specific__title {
+    text-align: center;
+  }
+  .specific__button {
+    margin: 40px 0 0 0;
+  }
+  .specific__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .specific__card {
+    max-width: 550px;
+    margin: 50px 0 0 0;
+  }
+  .specific__card-link {
+    margin: 10px 0 0 0;
+  }
+  .project__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .project__image {
+    max-width: 550px;
+    margin: 20px 0 0 0;
+  }
+  .video__video {
+    max-width: 700px;
+  }
+  .footer__link {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__link-item {
+    display: none;
+  }
+  .link-title {
+    margin: 15px 0 0 0;
+    font-size: 24px;
+  }
+}
+@media (max-width: 700px) {
+  .video__video {
+    max-width: 550px;
+    top: -100px;
+  }
+}
+@media (max-width: 594px) {
+  .header__link {
+    display: none;
+  }
+  .header__subtitle {
+    margin: 100px 0 0 0;
+  }
+  .benefits__bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+  .benefits__bottom-item {
+    display: flex;
+    align-items: center;
+  }
+  .benefits__bottom-bottom {
+    margin: 0 0 0 20px;
+  }
+  .email__input {
+    width: 350px;
+  }
+  .email__input button {
+    width: 130px;
+    padding: 0 0;
+  }
+}
