@@ -11,7 +11,28 @@
 <body>
     
     <header class="header">
+
+        <!-- Menu burger for mobile screen -->
+        <div class="menu__burger">
+            <div class="x">
+                <img src="./img/icon/x.png" alt="" class="close__button">
+            </div>
+            <ul>
+                <li>Главная</li>
+                <li>Наши проекты</li>
+                <li>Услуги</li>
+                <li>Новости</li>
+                <li>Контакты</li>
+            </ul>
+        </div>
+
+
         <div class="header__menu">
+            <!-- Burger Item -->
+            <div class="header__burger header__burger-open">
+                <img src="./img/icon/burger.png" alt="" class="open__button">
+            </div>
+
             <ul class="header__link">
                 <li class="header__link-item header__link-item--active">Главная</li>
                 <li class="header__link-item">Наши проекты</li>
@@ -347,5 +368,6 @@
         </div>
     </footer>
 
+    <script src="./js/main.js"></script>
 </body>
 </html>

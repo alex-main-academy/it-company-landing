@@ -109,6 +109,15 @@
   .benefits__bottom-bottom {
     margin: 0 0 0 20px;
   }
+  .header__burger {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 15px 15px 0;
+  }
+  .header__burger img {
+    width: 32px;
+  }
   .email__input {
     width: 350px;
   }
