@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/montserrat/v18/JTUSjIg1_i6t8kCHKm45xW4.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/montserrat/v21/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Ew-.ttf) format('truetype');
 }
 @font-face {
   font-family: 'Montserrat Alternates';
@@ -43,6 +43,7 @@
 .header {
   background: url(../img/header-back.png) no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-image: url(../img/header-back.png) no-repeat center center fixed;
   height: 100vh;
 }
 .header .container {
@@ -308,6 +309,7 @@
 .video {
   background: url(../img/header-back.png) no-repeat center center fixed;
   background-size: cover;
+  -webkit-background-origin: url(../img/header-back.png) no-repeat center center fixed;
   height: 570px;
 }
 .video .container {

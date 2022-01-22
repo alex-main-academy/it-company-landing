@@ -95,6 +95,9 @@
   .header__link {
     display: none;
   }
+  .header__title h1 {
+    font-size: 40px;
+  }
   .header__subtitle {
     margin: 100px 0 0 0;
   }
@@ -108,6 +111,9 @@
   }
   .benefits__bottom-bottom {
     margin: 0 0 0 20px;
+  }
+  .specific__title .title {
+    font-size: 24px;
   }
   .header__burger {
     display: block;
